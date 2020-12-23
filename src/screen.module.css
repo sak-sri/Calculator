@@ -1,0 +1,10 @@
+.Screen{
+    position: absolute;
+    top:0%;
+    height: 35%;
+    width:100%;
+    background-color: #202020;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: white;
+}

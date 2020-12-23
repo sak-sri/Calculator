@@ -1,0 +1,34 @@
+.Frame{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  border: 2px solid black;
+  border-radius: 25px;
+  height: 75%;
+  width: 25%;
+}
+.Table{
+  width: 100%;
+  top:35%;
+  position: absolute;
+  height: 65%;
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius:25px;
+  border: 2px solid black
+}
+td{
+  background-color: #ffdf6c;
+  border: 1px solid black;
+  width: 25%;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+}
+td:hover{
+  background-color: #707070;
+  color: white;
+  cursor: pointer;
+}
